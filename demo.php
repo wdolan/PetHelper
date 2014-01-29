@@ -3,6 +3,7 @@
 <!--Bill Dolan, Lindsay Coburn, Lewis Gilzeane, and Dan Jospeh-->
 <!--Our main starting page that the user will see-->
 <!-- This will contain the hello and login and create that will be first used-->
+<!-- First page to be loaded and where it will start from.-->
 
 <?php
 
