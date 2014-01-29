@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--Software Engineering Fall 2013-->
+<!--Team WoW-->
+<!--Bill Dolan, Lindsay Coburn, Lewis Gilzeane, and Dan Jospeh-->
+<!--Our first page for inputing data to be scraped with for the client-->
+<!-- This page is now depricated-->
+<html>
+	<head>
+		
+	</head>
+
+<body>
+
+
+	<! Start of form to collect entry data via PHP>
+	<form action="petread.php" method="get"> 
+		<input type="hidden" name="action" value="submit"> 
+		<! Create Table to format correctly in center>
+		<center>
+			<table>		
+				<tr>
+					<!Header of table>
+					<th> Entry Form </th>
+				</tr>
+				<! Table Name line>
+				<tr>
+					<td>
+						Character 
+						<input name="name" type="text" value="First Name" size="30"/><br> 
+					</td>
+				</tr>	
+				<tr>
+					<td>
+						<select name="realm">
+						<option value="cenarion-circle">Cenarion Circle</option>
+						<option value="kargath">Kargath</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" value="Submit"> 
+					</td>
+				</tr>
+			</table>
+		</center>
+    
+    </form> 
+	</center>
+</body>
+</html>
+<! End of page>
